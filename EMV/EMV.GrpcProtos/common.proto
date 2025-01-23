@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "Enviromental_Variables_Measurement.GrpcProto";
+
+package GrpcProtos;
+
+message MeasurementUnit {
+    string symbol = 1; // Símbolo de la unidad de medida
+    string name = 2;   // Nombre de la unidad de medida
+}
+
+message PhysicalAddress {
+    string country = 1; // País
+    string city = 2;    // Ciudad
+    string address = 3; // Dirección local
+}
+
+// Enum para el tipo de variable
+enum VariableType {
+    BooleanVariable = 0; // Variable booleana
+    ContinueVariable = 1; // Variable continua
+    DiscreteVariable = 2; // Variable discreta
+}
+
+// Enum para el tipo de muestra
+enum SampleType {
+    BooleanSample = 0; // Muestra booleana
+    ContinueSample = 1; // Muestra continua
+    DiscreteSample = 2; // Muestra discreta
+}
+
+message GetRequest{
+	string id = 1;
+}
+
+message DeleteRequest{
+	string id = 1;
+}

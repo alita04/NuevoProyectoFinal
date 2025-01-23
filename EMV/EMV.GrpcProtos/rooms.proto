@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "Enviromental_Variables_Measurement.GrpcProto";
+
+package GrpcProtos;
+
+import "google/protobuf/empty.proto";
+import "common.proto"; 
+
+service RoomService {
+    rpc CreateRoom (CreateRoomRequest) returns (RoomDTO);
+    rpc GetRoom (GetRequest) returns (NullableRoomDTO);
+    rpc GetAllRooms (google.protobuf.Empty) returns (Rooms);
+    rpc UpdateRoom (RoomDTO) returns (google.protobuf.Empty);
+    rpc DeleteRoom (DeleteRequest) returns (google.protobuf.Empty);
+}
+
+message RoomDTO {
+    string id = 1; // ID de la habitación
+    int32 number = 2; // Número de la habitación
+    bool isProduction = 3; // Indica si es una habitación de producción
+    string description = 4; // Descripción de la habitación (opcional)
+    string floorId = 5; // ID del piso asociado
+}
+
+message Rooms {
+    repeated RoomDTO items = 1; // Lista de habitaciones
+}
+
+message NullableRoomDTO {
+    oneof kind {
+        google.protobuf.Empty null = 1; // Caso nulo
+        RoomDTO room = 2; // Habitación existente
+    }
+}
+
+message CreateRoomRequest {
+    int32 number = 1; // Número de la habitación
+    bool isProduction = 2; // Indica si es una habitación de producción
+    string description = 3; // Descripción de la habitación (opcional)
+    string floorId = 4; // ID del piso asociado
+}

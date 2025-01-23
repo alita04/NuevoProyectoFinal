@@ -1,0 +1,12 @@
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\bin\Debug\net6.0\EMV.DataAccess.deps.json
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\bin\Debug\net6.0\EMV.DataAccess.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\bin\Debug\net6.0\EMV.DataAccess.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\EMV.DataAccess.csproj.AssemblyReference.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\EMV.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\EMV.DataAccess.AssemblyInfoInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\EMV.DataAccess.AssemblyInfo.cs
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\EMV.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\EMV.DataAccess.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\refint\EMV.DataAccess.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\EMV.DataAccess.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess\obj\Debug\net6.0\ref\EMV.DataAccess.dll

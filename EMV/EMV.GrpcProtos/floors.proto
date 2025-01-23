@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "Enviromental_Variables_Measurement.GrpcProto";
+
+package GrpcProtos;
+
+import "google/protobuf/empty.proto";
+import "common.proto"; 
+
+service FloorService {
+    rpc CreateFloor (CreateFloorRequest) returns (FloorDTO);
+    rpc GetFloor (GetRequest) returns (NullableFloorDTO);
+    rpc GetAllFloors (google.protobuf.Empty) returns (Floors);
+    rpc UpdateFloor (FloorDTO) returns (google.protobuf.Empty);
+    rpc DeleteFloor (DeleteRequest) returns (google.protobuf.Empty);
+}
+
+message FloorDTO {
+    string id = 1; // ID del piso
+    string location = 2; // Ubicación del piso
+    string buildingId = 3; // ID del edificio asociado
+}
+
+message Floors {
+    repeated FloorDTO items = 1; // Lista de pisos
+}
+
+message NullableFloorDTO {
+    oneof kind {
+        google.protobuf.Empty null = 1; // Caso nulo
+        FloorDTO floor = 2; // Piso existente
+    }
+}
+
+message CreateFloorRequest {
+    string location = 1; // Ubicación del piso
+    string buildingId = 2; // ID del edificio asociado
+}

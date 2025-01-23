@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option csharp_namespace = "Enviromental_Variables_Measurement.GrpcProto";
+
+package GrpcProtos;
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto"; // Para manejar DateTime
+import "common.proto"; 
+
+service SampleService {
+    rpc CreateSample (CreateSampleRequest) returns (SampleDTO);
+    rpc GetSample (GetRequest) returns (NullableSampleDTO);
+    rpc GetAllSamples (google.protobuf.Empty) returns (Samples);
+    rpc UpdateSample (SampleDTO) returns (google.protobuf.Empty);
+    rpc DeleteSample (DeleteRequest) returns (google.protobuf.Empty);
+}
+
+message SampleDTO {
+    string id = 1; // ID de la muestra
+    google.protobuf.Timestamp dateTime = 2; // Fecha y hora de la muestra
+    string variableId = 3; // ID de la variable asociada
+    SampleType type = 4; // Tipo de muestra
+    double decimalValue = 5; // Valor decimal (opcional)
+    int32 intValue = 6; // Valor entero (opcional)
+    bool boolValue = 7; // Valor booleano (opcional)
+}
+
+message Samples {
+    repeated SampleDTO items = 1; // Lista de muestras
+}
+
+message NullableSampleDTO {
+    oneof kind {
+        google.protobuf.Empty null = 1; // Caso nulo
+        SampleDTO sample = 2; // Muestra existente
+    }
+}
+
+message CreateSampleRequest {
+    google.protobuf.Timestamp dateTime = 1; // Fecha y hora de la muestra
+    string variableId = 2; // ID de la variable asociada
+    SampleType type = 3; // Tipo de muestra
+    double decimalValue = 4; // Valor decimal (opcional)
+    int32 intValue = 5; // Valor entero (opcional)
+    bool boolValue = 6; // Valor booleano (opcional)
+}
+

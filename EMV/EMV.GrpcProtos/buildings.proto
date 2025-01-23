@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "Enviromental_Variables_Measurement.GrpcProto";
+
+package GrpcProtos;
+
+import "google/protobuf/empty.proto";
+import "common.proto"; 
+
+service BuildingService {
+    rpc CreateBuilding (CreateBuildingRequest) returns (BuildingDTO);
+    rpc GetBuilding (GetRequest) returns (NullableBuildingDTO);
+    rpc GetAllBuildings (google.protobuf.Empty) returns (Buildings);
+    rpc UpdateBuilding (BuildingDTO) returns (google.protobuf.Empty);
+    rpc DeleteBuilding (DeleteRequest) returns (google.protobuf.Empty);
+}
+
+message BuildingDTO {
+    string id = 1; // ID del edificio
+    PhysicalAddress address = 2; // Dirección física del edificio
+    int32 buildingNumber = 3; // Número del edificio
+}
+
+message Buildings {
+    repeated BuildingDTO items = 1; // Lista de edificios
+}
+
+message NullableBuildingDTO {
+    oneof kind {
+        google.protobuf.Empty null = 1; // Caso nulo
+        BuildingDTO building = 2; // Edificio existente
+    }
+}
+
+message CreateBuildingRequest {
+    PhysicalAddress address = 1; // Dirección física del edificio
+    int32 buildingNumber = 2; // Número del edificio
+}
