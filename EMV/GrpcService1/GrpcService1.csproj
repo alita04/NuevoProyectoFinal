@@ -7,11 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
+    <ProjectReference Include="..\EMV.Application\EMV.Application.csproj" />
+    <ProjectReference Include="..\EMV.Contracts\EMV.Contracts.csproj" />
+    <ProjectReference Include="..\EMV.DataAccess\EMV.DataAccess.csproj" />
+    <ProjectReference Include="..\EMV.Domain\EMV.Domain.csproj" />
+    <ProjectReference Include="..\EMV.GrpcProtos\EMV.GrpcProtos.csproj" />
   </ItemGroup>
 
 </Project>

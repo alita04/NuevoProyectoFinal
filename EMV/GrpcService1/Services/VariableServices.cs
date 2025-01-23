@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Enviromental_Measurement.Domain.ValueObjects;
-using Enviromental_Variables_Measurement.GrpcProto;
+using EMV.Domain.ValueObjects;
+using EMV.GrpcProtos;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using MediatR;
@@ -8,7 +8,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Enviromental_Variable_Measurement.GrpcService.Services
+namespace EMV.GrpcService1.Services
 {
     public class VariableServices : VariableService.VariableServiceBase
     {

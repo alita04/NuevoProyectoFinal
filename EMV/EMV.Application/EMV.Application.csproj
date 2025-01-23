@@ -1,9 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EMV.Contracts\EMV.Contracts.csproj" />
+    <ProjectReference Include="..\EMV.DataAccess.Test\EMV.DataAccess.Test.csproj" />
+    <ProjectReference Include="..\EMV.DataAccess\EMV.DataAccess.csproj" />
+    <ProjectReference Include="..\EMV.Domain\EMV.Domain.csproj" />
+    <ProjectReference Include="..\EMV.GrpcProtos\EMV.GrpcProtos.csproj" />
+  </ItemGroup>
 
 </Project>

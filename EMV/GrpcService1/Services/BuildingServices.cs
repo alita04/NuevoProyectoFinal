@@ -2,13 +2,13 @@
 
 
 using AutoMapper;
-using Enviromental_Variables_Measurement.GrpcProto;
+using EMV.GrpcProtos;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using MediatR;
 
 
-namespace Enviromental_Variable_Measurement.GrpcService.Services
+namespace EMV.GrpcService1.Services
 {
     public class BuildingServices : BuildingService.BuildingServiceBase
     {

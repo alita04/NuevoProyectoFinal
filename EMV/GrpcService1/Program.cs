@@ -2,13 +2,13 @@ using MediatR;
 using Microsoft.Extensions.Logging;
 using EMV.Contracts;
 using EMV.DataAccess.Contexts;
-using Enviromental_Measurement.DataAccess;
-using Enviromental_Variables_Measurement.GrpcProto;
+using EMV.DataAccess;
+using EMV.GrpcProtos;
 using System.Reflection.Metadata;
-using Enviromental_Measurement.DataAccess.Repositories;
-using Enviromental_Variable_Measurement.GrpcService.Services;
+using EMV.DataAccess.Repositories;
 
-namespace Enviromental_Variable_Measurement.GrpcService
+
+namespace Enviromental_Variable_Measurement.GrpcService1
 {
     public class Program
     {

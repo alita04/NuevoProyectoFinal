@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Enviromental_Measurement.Domain.Entities.Structures;
+using EMV.Domain.Entities.Structures;
 
-using Enviromental_Variables_Measurement.GrpcProto;
+using EMV.GrpcProtos;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using MediatR;
@@ -10,7 +10,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Enviromental_Variable_Measurement.GrpcService.Services
+namespace EMV.GrpcService1.Services
+{
 {
     public class RoomServices : RoomService.RoomServiceBase
     {
