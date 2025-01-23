@@ -96,3 +96,4 @@ C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess.Test\obj\Debug
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess.Test\obj\Debug\net6.0\EMV.DataAccess.Test.pdb
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess.Test\obj\Debug\net6.0\EMV.DataAccess.Test.genruntimeconfig.cache
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess.Test\obj\Debug\net6.0\ref\EMV.DataAccess.Test.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.DataAccess.Test\bin\Debug\net6.0\CoverletSourceRootsMapping

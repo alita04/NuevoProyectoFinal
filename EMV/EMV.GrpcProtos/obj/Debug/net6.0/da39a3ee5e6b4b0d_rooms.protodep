@@ -1,0 +1,4 @@
+obj\Debug\net6.0/Rooms.cs \
+obj\Debug\net6.0/RoomsGrpc.cs: C:/Users/alejo/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/empty.proto\
+ common.proto\
+ rooms.proto

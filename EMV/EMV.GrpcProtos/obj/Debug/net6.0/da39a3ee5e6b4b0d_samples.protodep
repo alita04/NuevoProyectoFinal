@@ -1,0 +1,5 @@
+obj\Debug\net6.0/Samples.cs \
+obj\Debug\net6.0/SamplesGrpc.cs: C:/Users/alejo/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/empty.proto\
+ C:/Users/alejo/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/timestamp.proto\
+ common.proto\
+ samples.proto

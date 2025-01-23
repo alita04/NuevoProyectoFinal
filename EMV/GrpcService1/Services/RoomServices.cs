@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using EMV.Domain.Entities.Structures;
-
 using EMV.GrpcProtos;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
@@ -12,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace EMV.GrpcService1.Services
 {
-{
+
     public class RoomServices : RoomService.RoomServiceBase
     {
         private readonly IMediator _mediator;

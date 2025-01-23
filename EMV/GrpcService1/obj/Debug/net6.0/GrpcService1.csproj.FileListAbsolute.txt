@@ -1,0 +1,6 @@
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\GrpcService1\obj\Debug\net6.0\GrpcService1.csproj.AssemblyReference.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\GrpcService1\obj\Debug\net6.0\GrpcService1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\GrpcService1\obj\Debug\net6.0\GrpcService1.AssemblyInfoInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\GrpcService1\obj\Debug\net6.0\GrpcService1.AssemblyInfo.cs
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\GrpcService1\obj\Debug\net6.0\GrpcService1.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\GrpcService1\obj\Debug\net6.0\GrpcService1.MvcApplicationPartsAssemblyInfo.cache

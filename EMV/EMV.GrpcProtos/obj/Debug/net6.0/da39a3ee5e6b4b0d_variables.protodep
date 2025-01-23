@@ -1,0 +1,5 @@
+obj\Debug\net6.0/Variables.cs \
+obj\Debug\net6.0/VariablesGrpc.cs: C:/Users/alejo/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/empty.proto\
+ C:/Users/alejo/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/struct.proto\
+ common.proto\
+ variables.proto

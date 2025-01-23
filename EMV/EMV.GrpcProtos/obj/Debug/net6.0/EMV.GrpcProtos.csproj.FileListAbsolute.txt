@@ -1,0 +1,14 @@
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\bin\Debug\net6.0\EMV.GrpcProtos.deps.json
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\bin\Debug\net6.0\EMV.GrpcProtos.runtimeconfig.json
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\bin\Debug\net6.0\EMV.GrpcProtos.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\bin\Debug\net6.0\EMV.GrpcProtos.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.csproj.AssemblyReference.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.AssemblyInfoInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.AssemblyInfo.cs
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\refint\EMV.GrpcProtos.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\EMV.GrpcProtos.genruntimeconfig.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.GrpcProtos\obj\Debug\net6.0\ref\EMV.GrpcProtos.dll

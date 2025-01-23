@@ -56,19 +56,31 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.5.1, )"
             },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[6.0.27, )"
             }
           },
           "imports": [
@@ -130,19 +142,31 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.5.1, )"
             },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[6.0.27, )"
             }
           },
           "imports": [
@@ -210,9 +234,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.5.1, )"
             },
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -226,11 +254,19 @@
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[6.0.27, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -303,19 +339,31 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.5.1, )"
             },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[6.0.27, )"
             }
           },
           "imports": [
@@ -373,19 +421,31 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.5.1, )"
             },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[6.0.27, )"
             }
           },
           "imports": [
@@ -443,19 +503,39 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.5.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.27.2, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.63.0, )"
             },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[6.0.27, )"
             }
           },
           "imports": [
