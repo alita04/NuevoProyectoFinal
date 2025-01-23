@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "hE082r6rG4jt9T/NTDAEm1BWZGSYcCJtpKqCQoS2RD2oRg77iPZdqOrwHDHw66FLyKRfrHl6k1UG8qNSMbZCmA==",
+  "dgSpecHash": "9KLOGBdekKbT/YZEQ8Eo9j8nZ1i73dfPdNc4Vxi8jaKxE9XGm5BXprDiPBw1hmoec0oCjZ1jybWFlX7lbCW+Kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess.Test\\EMV.DataAccess.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alejo\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.1\\microsoft.entityframeworkcore.tools.9.0.1.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

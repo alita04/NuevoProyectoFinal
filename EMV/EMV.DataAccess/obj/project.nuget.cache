@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "P9cgCItyzEHEGQjRuyHsV8HrgsgfSWzm3fydhwgmJKLgLtUm2II7GuECpZxEIXdicVHoP9SIXhL/vrvDKQRlXw==",
+  "dgSpecHash": "rDwUi2n8kAbHvesWq/y5p8cPHJm2chn7F8md0emp2TNNpKUCKaNLgoVZX1xgafB11SO9EO4q7PcuNgWmGroFyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alejo\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.1\\microsoft.entityframeworkcore.tools.9.0.1.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
