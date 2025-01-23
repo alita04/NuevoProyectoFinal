@@ -6,7 +6,7 @@ using EMV.DataAccess;
 using EMV.GrpcProtos;
 using System.Reflection.Metadata;
 using EMV.DataAccess.Repositories;
-
+using EMV.GrpcService1.Services;
 
 namespace Enviromental_Variable_Measurement.GrpcService1
 {

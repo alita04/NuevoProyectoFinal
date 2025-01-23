@@ -4,6 +4,387 @@
     "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\GrpcService1\\GrpcService1.csproj": {}
   },
   "projects": {
+    "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Application\\EMV.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Application\\EMV.Application.csproj",
+        "projectName": "EMV.Application",
+        "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Application\\EMV.Application.csproj",
+        "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj"
+              },
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess.Test\\EMV.DataAccess.Test.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess.Test\\EMV.DataAccess.Test.csproj"
+              },
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj"
+              },
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj"
+              },
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.GrpcProtos\\EMV.GrpcProtos.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.GrpcProtos\\EMV.GrpcProtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj",
+        "projectName": "EMV.Contracts",
+        "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj",
+        "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess.Test\\EMV.DataAccess.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess.Test\\EMV.DataAccess.Test.csproj",
+        "projectName": "EMV.DataAccess.Test",
+        "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess.Test\\EMV.DataAccess.Test.csproj",
+        "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj"
+              },
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj"
+              },
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj",
+        "projectName": "EMV.DataAccess",
+        "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\EMV.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Contracts\\EMV.Contracts.csproj"
+              },
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -200,6 +581,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Application\\EMV.Application.csproj": {
+                "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Application\\EMV.Application.csproj"
+              },
               "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj": {
                 "projectPath": "C:\\Users\\alejo\\source\\repos\\NuevoProyectoFinal\\EMV\\EMV.Domain\\EMV.Domain.csproj"
               },

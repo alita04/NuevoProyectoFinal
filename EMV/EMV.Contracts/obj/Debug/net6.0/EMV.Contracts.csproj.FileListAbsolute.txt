@@ -3,3 +3,15 @@ C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\EMV.Contracts.AssemblyInfoInputs.cache
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\EMV.Contracts.AssemblyInfo.cs
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\EMV.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\bin\Debug\net6.0\EMV.Contracts.deps.json
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\bin\Debug\net6.0\EMV.Contracts.runtimeconfig.json
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\bin\Debug\net6.0\EMV.Contracts.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\bin\Debug\net6.0\EMV.Contracts.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\bin\Debug\net6.0\EMV.Domain.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\bin\Debug\net6.0\EMV.Domain.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\EMV.Contracts.csproj.CopyComplete
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\EMV.Contracts.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\refint\EMV.Contracts.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\EMV.Contracts.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\EMV.Contracts.genruntimeconfig.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Contracts\obj\Debug\net6.0\ref\EMV.Contracts.dll

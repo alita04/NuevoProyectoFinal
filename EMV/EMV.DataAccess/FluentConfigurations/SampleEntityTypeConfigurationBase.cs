@@ -1,6 +1,6 @@
 ﻿using EMV.DataAccess.FluentConfigurations.Common;
 using EMV.Domain.Entities.Samples;
-using Enviromental_Measurement.Domain.Entities.Variable;
+using EMV.Domain.Entities.Variable;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;

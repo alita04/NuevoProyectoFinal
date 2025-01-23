@@ -19,6 +19,7 @@
     <Import Project="$(NuGetPackageRoot)entityframework\6.5.1\buildTransitive\net6.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.5.1\buildTransitive\net6.0\EntityFramework.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\alejo\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\alejo\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.27</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">C:\Users\alejo\.nuget\packages\grpc.tools\2.63.0</PkgGrpc_Tools>
     <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\alejo\.nuget\packages\entityframework\6.5.1</PkgEntityFramework>

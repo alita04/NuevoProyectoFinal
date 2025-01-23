@@ -3,3 +3,12 @@ C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\E
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\EMV.Domain.AssemblyInfoInputs.cache
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\EMV.Domain.AssemblyInfo.cs
 C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\EMV.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\bin\Debug\net6.0\EMV.Domain.deps.json
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\bin\Debug\net6.0\EMV.Domain.runtimeconfig.json
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\bin\Debug\net6.0\EMV.Domain.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\bin\Debug\net6.0\EMV.Domain.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\EMV.Domain.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\refint\EMV.Domain.dll
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\EMV.Domain.pdb
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\EMV.Domain.genruntimeconfig.cache
+C:\Users\alejo\source\repos\NuevoProyectoFinal\EMV\EMV.Domain\obj\Debug\net6.0\ref\EMV.Domain.dll

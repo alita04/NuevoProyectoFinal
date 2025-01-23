@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.Domain.Types
+namespace EMV.Domain.Types
 {
     public enum SampleType
     {

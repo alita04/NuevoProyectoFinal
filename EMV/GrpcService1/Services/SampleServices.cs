@@ -1,4 +1,9 @@
 ﻿using AutoMapper;
+using EMV.Application.Varaibles.Commands.SampleCommands.CreateSample;
+using EMV.Application.Varaibles.Commands.SampleCommands.DeleteSample;
+using EMV.Application.Varaibles.Commands.SampleCommands.UpdateSample;
+using EMV.Application.Varaibles.Queries.GetAllSample;
+using EMV.Application.Varaibles.Queries.GetSample;
 using EMV.Domain.Entities.Samples;
 
 using EMV.GrpcProtos;
@@ -12,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace EMV.GrpcService1.Services
 {
-{
+
     public class SampleServices : SampleService.SampleServiceBase
     {
         private readonly IMediator _mediator;
@@ -29,7 +34,7 @@ namespace EMV.GrpcService1.Services
             var command = new CreateSampleCommand(
                 request.DateTime.ToDateTime(), // Convertir Timestamp a DateTime
                 new Guid(request.VariableId), // Convertir string a Guid
-                request.Type,
+               (EMV.Domain.Types.SampleType)request.Type,
                 request.DecimalValue,
                 request.IntValue,
                 request.BoolValue);
@@ -71,7 +76,7 @@ namespace EMV.GrpcService1.Services
                 new Guid(request.Id), // Convertir string a Guid
                 request.DateTime.ToDateTime(), // Convertir Timestamp a DateTime
                 new Guid(request.VariableId), // Convertir string a Guid
-                request.Type,
+                (EMV.Domain.Types.SampleType)request.Type,
                 request.DecimalValue,
                 request.IntValue,
                 request.BoolValue);

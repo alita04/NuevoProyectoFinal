@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EMV.Application\EMV.Application.csproj" />
     <ProjectReference Include="..\EMV.Domain\EMV.Domain.csproj" />
     <ProjectReference Include="..\EMV.GrpcProtos\EMV.GrpcProtos.csproj" />
   </ItemGroup>

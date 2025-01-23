@@ -2,6 +2,11 @@
 
 
 using AutoMapper;
+using EMV.Application.Varaibles.Commands.BuildingCommand.CreateBuilding;
+using EMV.Application.Varaibles.Commands.BuildingCommand.DeleteBuilding;
+using EMV.Application.Varaibles.Commands.BuildingCommand.UpdateBuilding;
+using EMV.Application.Varaibles.Queries.GetAllBuilding;
+using EMV.Application.Varaibles.Queries.GetBuilding;
 using EMV.GrpcProtos;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
@@ -24,7 +29,7 @@ namespace EMV.GrpcService1.Services
         public override Task<BuildingDTO> CreateBuilding(CreateBuildingRequest request, ServerCallContext context)
         {
             var command = new CreateBuildingCommand(
-                new Enviromental_Measurement.Domain.ValueObjects.PhysicalAddress(
+                new EMV.Domain.ValueObjects.PhysicalAddress(
                     request.Address.Country,
                     request.Address.City,
                     request.Address.Address),
@@ -65,7 +70,7 @@ namespace EMV.GrpcService1.Services
         {
             var command = new UpdateBuildingCommand(
                 new Guid(request.Id),
-                new Enviromental_Measurement.Domain.ValueObjects.PhysicalAddress(
+                new EMV.Domain.ValueObjects.PhysicalAddress(
                     request.Address.Country,
                     request.Address.City,
                     request.Address.Address),

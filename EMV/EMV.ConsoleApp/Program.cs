@@ -1,10 +1,11 @@
-﻿using Grpc.Net.Client;
-using EMV.GrpcProto; // Asegúrate de que este espacio de nombres sea correcto
+﻿
+using EMV.GrpcProtos;
+using Grpc.Net.Client;
 using System;
 using System.Net.Http;
-using Grpc.Core;
 
-namespace Enviromental_Variables_Measurement.ConsoleApp
+
+namespace EMV.ConsoleApp
 {
     /// <summary>Clase principal del programa que ejecuta las operaciones CRUD en la base de datos SQLite.</summary>
     internal class Program
@@ -46,10 +47,7 @@ namespace Enviromental_Variables_Measurement.ConsoleApp
                 });
                 Console.WriteLine("Habitación creada con éxito: " + createResponse.Id);
             }
-            catch (RpcException ex)
-            {
-                Console.WriteLine($"Error al crear la habitación: {ex.Status.Detail}");
-            }
+           
             catch (Exception ex)
             {
                 Console.WriteLine($"Error inesperado: {ex.Message}");

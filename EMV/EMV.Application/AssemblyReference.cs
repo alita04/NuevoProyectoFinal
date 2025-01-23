@@ -1,4 +1,4 @@
-﻿namespace Evironmental_Variables_Measurement.Application
+﻿namespace EMV.Application
 {
     public class AssemblyReference
     {

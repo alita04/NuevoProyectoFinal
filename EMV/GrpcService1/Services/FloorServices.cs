@@ -1,6 +1,10 @@
 ﻿
 using AutoMapper;
-
+using EMV.Application.Varaibles.Commands.FloorCommands.CreateCommands;
+using EMV.Application.Varaibles.Commands.FloorCommands.DeleteFloor;
+using EMV.Application.Varaibles.Commands.FloorCommands.UpdateFloor;
+using EMV.Application.Varaibles.Queries.GetAllFloor;
+using EMV.Application.Varaibles.Queries.GetFloor;
 using EMV.GrpcProtos;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;

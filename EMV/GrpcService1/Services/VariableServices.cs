@@ -1,4 +1,9 @@
 ﻿using AutoMapper;
+using EMV.Application.Varaibles.Commands.VariableCommand.CreateVariable;
+using EMV.Application.Varaibles.Commands.VariableCommand.DeleteVariable;
+using EMV.Application.Varaibles.Commands.VariableCommand.UpdateVariable;
+using EMV.Application.Varaibles.Queries.GetAllVariable;
+using EMV.Application.Varaibles.Queries.GetVariable;
 using EMV.Domain.ValueObjects;
 using EMV.GrpcProtos;
 using Google.Protobuf.WellKnownTypes;
@@ -27,7 +32,7 @@ namespace EMV.GrpcService1.Services
                 request.VariableName,
                 new Measurement_Unit(request.MeasurementUnit.Symbol, request.MeasurementUnit.Name),
                 request.VariableCode,
-                request.Type,
+                (EMV.Domain.Types.VariableType)request.Type,
                 string.IsNullOrEmpty(request.BuildingID) ? (Guid?)null : Guid.Parse(request.BuildingID),
                 string.IsNullOrEmpty(request.FloorID) ? (Guid?)null : Guid.Parse(request.FloorID),
                 string.IsNullOrEmpty(request.RoomID) ? (Guid?)null : Guid.Parse(request.RoomID));
@@ -70,7 +75,7 @@ namespace EMV.GrpcService1.Services
                 request.VariableName,
                 new Measurement_Unit(request.MeasurementUnit.Symbol, request.MeasurementUnit.Name),
                 request.VariableCode,
-                request.Type,
+                (EMV.Domain.Types.VariableType)request.Type,
                 string.IsNullOrEmpty(request.BuildingID) ? (Guid?)null : Guid.Parse(request.BuildingID),
                 string.IsNullOrEmpty(request.FloorID) ? (Guid?)null : Guid.Parse(request.FloorID),
                 string.IsNullOrEmpty(request.RoomID) ? (Guid?)null : Guid.Parse(request.RoomID));
