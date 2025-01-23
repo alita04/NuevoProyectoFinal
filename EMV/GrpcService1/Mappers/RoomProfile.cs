@@ -1,7 +1,7 @@
 ﻿
 using AutoMapper;
 using EMV.Domain.Entities.Structures; 
-using EMV.GrpcProto; 
+using EMV.GrpcProtos; 
 
 
 namespace EMV.GrpcService1.Mappers

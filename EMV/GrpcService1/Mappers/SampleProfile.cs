@@ -1,7 +1,7 @@
 ﻿
 using AutoMapper;
 using EMV.Domain.Entities.Samples; 
-using EMV.GrpcProto; 
+using EMV.GrpcProtos; 
 
 using Google.Protobuf.WellKnownTypes; // Para manejar Timestamp
 

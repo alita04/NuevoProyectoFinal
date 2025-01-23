@@ -1,5 +1,5 @@
-﻿using Enviromental_Measurement.Domain.Entities;
-using Enviromental_Measurement.Domain.Entities.Samples;
+﻿using EMV.Domain.Entities;
+using EMV.Domain.Entities.Samples;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Design;
 using System.Drawing;
-using Enviromental_Measurement.Domain.Entities.Structures;
-using Enviromental_Measurement.DataAccess.FluentConfigurations;
-using Enviromental_Measurement.Domain.Entities.Variable;
+using EMV.Domain.Entities.Structures;
+using EMV.DataAccess.FluentConfigurations;
+using EMV.Domain.Entities.Variable;
 
-namespace Enviromental_Measurement.DataAccess.Contexts
+namespace EMV.DataAccess.Contexts
 {
 
     /// <summary>

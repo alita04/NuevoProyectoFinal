@@ -1,4 +1,4 @@
-﻿using Enviromental_Measurement.Domain.Common;
+﻿using EMV.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.DataAccess.FluentConfigurations.Common
+namespace EMV.DataAccess.FluentConfigurations.Common
 {
     public abstract class EntityTypeConfigurationBase<T>
         : IEntityTypeConfiguration<T>

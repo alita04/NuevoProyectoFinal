@@ -1,6 +1,6 @@
-﻿using Enviromental_Measurement.Contracts;
-using Enviromental_Measurement.Domain.Entities.Structures;
-using Enviromental_Measurement.Domain.Entities.Variable;
+﻿using EMV.Contracts;
+using EMV.Domain.Entities.Structures;
+using EMV.Domain.Entities.Variable;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Enviromental_Measurement.Contracts
+namespace EMV.Contracts
 {
     public interface IVariableRepository : IRepositoryBase<Variable>
         {

@@ -2,7 +2,7 @@
 using AutoMapper;
 using EMV.Domain.Entities.Variable;
 using EMV.Domain.ValueObjects;
-using EMV.GrpcProto;
+using EMV.GrpcProtos;
 
 
 namespace EMV.GrpcService1.Mappers

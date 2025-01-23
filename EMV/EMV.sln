@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService1", "GrpcService
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMV.Application", "EMV.Application\EMV.Application.csproj", "{8BD4CAD2-638C-4E53-92F0-DB4D850A9020}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMV.ConsoleApp", "EMV.ConsoleApp\EMV.ConsoleApp.csproj", "{CAAA435D-32D7-48AC-9C9B-DB6714055A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8BD4CAD2-638C-4E53-92F0-DB4D850A9020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD4CAD2-638C-4E53-92F0-DB4D850A9020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD4CAD2-638C-4E53-92F0-DB4D850A9020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAA435D-32D7-48AC-9C9B-DB6714055A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAA435D-32D7-48AC-9C9B-DB6714055A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAA435D-32D7-48AC-9C9B-DB6714055A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAA435D-32D7-48AC-9C9B-DB6714055A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

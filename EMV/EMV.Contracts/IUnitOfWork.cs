@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.Contracts
+namespace EMV.Contracts
 {
     /// <summary>
     /// Define las propiedades y funcionalidades de un elemento de

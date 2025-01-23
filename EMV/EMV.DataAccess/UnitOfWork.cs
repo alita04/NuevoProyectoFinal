@@ -1,9 +1,9 @@
 ﻿
-using Enviromental_Measurement.Contracts;
-using Enviromental_Measurement.DataAccess.Contexts;
+using EMV.Contracts;
+using EMV.DataAccess.Contexts;
 using Microsoft.EntityFrameworkCore;
 
-namespace Enviromental_Measurement.DataAccess
+namespace EMV.DataAccess
 {
     /// <summary>
     /// Implementación de <see cref="IUnitOfWork"/>.

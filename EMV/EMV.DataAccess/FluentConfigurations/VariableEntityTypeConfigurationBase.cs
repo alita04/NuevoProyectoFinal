@@ -1,7 +1,7 @@
-﻿using Enviromental_Measurement.DataAccess.Repositories;
-using Enviromental_Measurement.Domain.Entities.Samples;
-using Enviromental_Measurement.Domain.Entities.Structures;
-using Enviromental_Measurement.Domain.Entities.Variable;
+﻿using EMV.DataAccess.Repositories;
+using EMV.Domain.Entities.Samples;
+using EMV.Domain.Entities.Structures;
+using EMV.Domain.Entities.Variable;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -11,7 +11,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.DataAccess.FluentConfigurations
+namespace EMV.DataAccess.FluentConfigurations
 {
     public class VariableEntityTypeConfigurationBase : IEntityTypeConfiguration<Variable>
     {

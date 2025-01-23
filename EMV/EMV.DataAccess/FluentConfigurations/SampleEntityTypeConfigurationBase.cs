@@ -1,5 +1,5 @@
-﻿using Enviromental_Measurement.DataAccess.FluentConfigurations.Common;
-using Enviromental_Measurement.Domain.Entities.Samples;
+﻿using EMV.DataAccess.FluentConfigurations.Common;
+using EMV.Domain.Entities.Samples;
 using Enviromental_Measurement.Domain.Entities.Variable;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.DataAccess.FluentConfigurations
+namespace EMV.DataAccess.FluentConfigurations
 {
     public class SampleEntityTypeConfigurationBase : EntityTypeConfigurationBase<Sample>
     {

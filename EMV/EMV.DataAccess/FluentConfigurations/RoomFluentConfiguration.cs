@@ -1,4 +1,4 @@
-﻿using Enviromental_Measurement.Domain.Entities.Structures;
+﻿using EMV.Domain.Entities.Structures;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.DataAccess.FluentConfigurations
+namespace EMV.DataAccess.FluentConfigurations
 {
     internal class RoomFluentConfiguration : IEntityTypeConfiguration<Room>
     {
