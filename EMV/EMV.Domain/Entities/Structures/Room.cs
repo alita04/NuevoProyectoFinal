@@ -1,4 +1,4 @@
-﻿using Enviromental_Measurement.Domain.Common;
+﻿using EMV.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.Domain.Entities.Structures
+namespace EMV.Domain.Entities.Structures
 {
 
     public class Room : Entity

@@ -1,5 +1,5 @@
-﻿using Enviromental_Measurement.Domain.Common;
-using Enviromental_Measurement.Domain.ValueObjects;
+﻿using EMV.Domain.Common;
+using EMV.Domain.ValueObjects;
 
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.Domain.Entities.Structures;
+namespace EMV.Domain.Entities.Structures;
 
 public class Building : Entity
 {

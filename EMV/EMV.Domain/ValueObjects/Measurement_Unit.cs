@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Enviromental_Measurement.Domain.Common;
+using EMV.Domain.Common;
 
-namespace Enviromental_Measurement.Domain.ValueObjects
+namespace EMV.Domain.ValueObjects
 {
     public class Measurement_Unit : ValueObject
     {

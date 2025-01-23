@@ -1,11 +1,11 @@
 ﻿
 using AutoMapper;
-using Enviromental_Measurement.Domain.Entities.Samples; 
-using Enviromental_Variables_Measurement.GrpcProto; 
+using EMV.Domain.Entities.Samples; 
+using EMV.GrpcProto; 
 
 using Google.Protobuf.WellKnownTypes; // Para manejar Timestamp
 
-namespace Enviromental_Variable_Measurement.GrpcService.Mappers
+namespace EMV.GrpcService1.Mappers
 {
     public class SampleProfile : Profile
     {

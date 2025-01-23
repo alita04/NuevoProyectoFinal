@@ -1,11 +1,11 @@
 ﻿
 using AutoMapper;
-using Enviromental_Measurement.Domain.Entities.Variable;
-using Enviromental_Measurement.Domain.ValueObjects;
-using Enviromental_Variables_Measurement.GrpcProto;
+using EMV.Domain.Entities.Variable;
+using EMV.Domain.ValueObjects;
+using EMV.GrpcProto;
 
 
-namespace Enviromental_Variable_Measurement.GrpcService.Mappers
+namespace EMV.GrpcService1.Mappers
 {
     public class VariableProfile : Profile
     {

@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Enviromental_Measurement.Domain.Entities.Structures;
+using EMV.Domain.Entities.Structures;
 using System.ComponentModel.DataAnnotations.Schema;
-using Enviromental_Measurement.Domain.Entities.Samples;
-using Enviromental_Measurement.Domain.Types;
-using Enviromental_Measurement.Domain.Common;
-using Enviromental_Measurement.Domain.ValueObjects;
+using EMV.Domain.Entities.Samples;
+using EMV.Domain.Types;
+using EMV.Domain.Common;
+using EMV.Domain.ValueObjects;
 
-namespace Enviromental_Measurement.Domain.Entities.Variable;
+namespace EMV.Domain.Entities.Variable;
 
 /// <summary>
 /// Clase base para las Variables de Medicion

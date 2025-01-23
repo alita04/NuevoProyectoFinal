@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "Enviromental_Variables_Measurement.GrpcProto";
+option csharp_namespace = "EMV.GrpcProtos";
 
 package GrpcProtos;
 

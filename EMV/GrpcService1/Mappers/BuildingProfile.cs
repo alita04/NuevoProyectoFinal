@@ -1,9 +1,9 @@
 ﻿
 using AutoMapper;
-using Enviromental_Measurement.Domain.Entities.Structures; 
-using Enviromental_Variables_Measurement.GrpcProto; 
+using EMV.Domain.Entities.Structures; 
+using EMV.GrpcProto; 
 
-namespace Enviromental_Variable_Measurement.GrpcService.Mappers
+namespace EMV.GrpcService1.Mappers
 {
     public class BuildingProfile : Profile
     {

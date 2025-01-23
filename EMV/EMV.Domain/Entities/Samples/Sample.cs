@@ -1,15 +1,8 @@
-﻿using Enviromental_Measurement.Domain.Common;
-using Enviromental_Measurement.Domain.Types;
+﻿using EMV.Domain.Common;
+using EMV.Domain.Types;
 
-using Google.Protobuf.WellKnownTypes;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.Domain.Entities.Samples
+namespace EMV.Domain.Entities.Samples
 {
 
     public  class Sample : Entity

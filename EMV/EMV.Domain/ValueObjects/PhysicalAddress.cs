@@ -1,11 +1,11 @@
-﻿using Enviromental_Measurement.Domain.Common;
+﻿using EMV.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.Domain.ValueObjects
+namespace EMV.Domain.ValueObjects
 {
     public class PhysicalAddress : ValueObject
     {

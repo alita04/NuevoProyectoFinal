@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enviromental_Measurement.Domain.Common
+namespace EMV.Domain.Common
 {
     public abstract class Entity
     {
